@@ -15,7 +15,7 @@ function ProfilePicture() {
       <Row className="justify-content-center">
         <Col xs={12} md={6} lg={4}>
           <Image
-            src={`/al.jpg`}
+            src={`/alejandro-lara/al.jpg`}
             alt="Your Name"
             roundedCircle
             fluid
