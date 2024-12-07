@@ -1,0 +1,53 @@
+/* styles.css */
+.clickableCard {
+  width: 450px;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.clickableCard:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.fullscreen {
+  width: 100vw;
+  max-width: 1366px; /* Ensure it doesn't expand too far */
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.vertical-tab {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  writing-mode: vertical-rl; /* Rotate text vertically */
+  text-align: center;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.vertical-tab:hover {
+  background-color: #0056b3;
+}
+
+.vertical-tab.hidden {
+  display: none;
+}
