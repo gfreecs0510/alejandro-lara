@@ -15,7 +15,7 @@ function ProfilePicture() {
       <Row className="justify-content-center">
         <Col xs={12} md={6} lg={4}>
           <Image
-            src={`${import.meta.env.VITE_REPO_NAME}/al.jpg`}
+            src={`/al.jpg`}
             alt="Your Name"
             roundedCircle
             fluid
@@ -46,7 +46,7 @@ function ProfilePicture() {
               }}
             />
             <a
-              href={`${import.meta.env.VITE_REPO_NAME}/Alejandro Lara.pdf`}
+              href={`/Alejandro Lara.pdf`}
               download="Al Lara.pdf"
               className="btn btn-primary"
             >
