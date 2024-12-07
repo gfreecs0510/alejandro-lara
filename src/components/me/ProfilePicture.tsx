@@ -46,7 +46,7 @@ function ProfilePicture() {
               }}
             />
             <a
-              href={`/Alejandro Lara.pdf`}
+              href={`/alejandro-lara/Alejandro Lara.pdf`}
               download="Al Lara.pdf"
               className="btn btn-primary"
             >
