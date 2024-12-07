@@ -8,13 +8,13 @@ const certifications = [
     title: 'AWS Certified Cloud Practitioner',
     date: '2024/07/10 - 2027/07/10',
     link: 'https://www.credly.com/badges/7f5b747d-7d44-451d-b9cd-2d384c898764/linked_in?t=shs8i',
-    image: '/aws.png',
+    image: `${import.meta.env.VITE_REPO_NAME}/aws.png`
   },
   {
     title: 'JLPT N4 Passer',
     date: '2021/02',
     link: '#',
-    image: '/jlpt.gif',
+    image: `${import.meta.env.VITE_REPO_NAME}/jlpt.gif`
   },
 ];
 
