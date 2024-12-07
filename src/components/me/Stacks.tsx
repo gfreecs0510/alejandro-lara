@@ -26,6 +26,7 @@ import {
   SiReactbootstrap,
   SiPhp,
   SiBitbucket,
+  SiRedis,
 } from 'react-icons/si';
 
 type StackAndLogos = {
@@ -69,6 +70,7 @@ const others: StackAndLogos[] = [
   { name: 'Elasticsearch', icon: <SiElasticsearch color="#005EB8" /> },
   { name: 'MariaDB', icon: <SiMariadb color="#003545" /> },
   { name: 'MySQL', icon: <SiMysql color="#4479A1" /> },
+  { name: 'Redis', icon: <SiRedis color="#4479A1" /> },  
 ];
 
 function renderCards(title: string, stack: StackAndLogos[]) {
